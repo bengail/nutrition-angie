@@ -99,3 +99,28 @@ footer {
   color: #666;
   font-size: 0.9rem;
 }
+
+.model {
+  background: #f8fbff;
+  border: 1px dashed #0b5ed7;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.checklist {
+  list-style: none;
+  padding-left: 0;
+}
+
+.checklist li {
+  margin: 0.6rem 0;
+}
+
+.warning-list li {
+  color: #b45309;
+}
+
+h3 {
+  margin-top: 2rem;
+}
+
