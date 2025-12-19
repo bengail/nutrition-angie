@@ -3,11 +3,11 @@ html {
 }
 
 body {
-  font-family: system-ui, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   max-width: 900px;
   margin: auto;
   padding: 2rem;
-  line-height: 1.65;
+  line-height: 1.7;
   color: #222;
 }
 
@@ -15,15 +15,20 @@ header {
   margin-bottom: 3rem;
 }
 
+h1 {
+  font-size: 2.4rem;
+}
+
 .subtitle {
   color: #555;
+  max-width: 700px;
 }
 
 #toc {
-  top: 1rem;
   background: #fafafa;
-  padding: 1rem;
+  padding: 1.5rem;
   border-left: 4px solid #0b5ed7;
+  margin-bottom: 3rem;
 }
 
 #toc ul {
@@ -32,12 +37,12 @@ header {
 }
 
 #toc li {
-  margin: 0.4rem 0;
+  margin: 0.5rem 0;
 }
 
 #toc a {
-  text-decoration: none;
   color: #0b5ed7;
+  text-decoration: none;
 }
 
 #toc a:hover {
@@ -47,6 +52,10 @@ header {
 h2 {
   margin-top: 4rem;
   color: #0b5ed7;
+}
+
+h3 {
+  margin-top: 2rem;
 }
 
 .podcast {
@@ -92,14 +101,6 @@ h2 {
   margin: 1.5rem 0;
 }
 
-footer {
-  margin-top: 4rem;
-  padding-top: 2rem;
-  border-top: 1px solid #ddd;
-  color: #666;
-  font-size: 0.9rem;
-}
-
 .model {
   background: #f8fbff;
   border: 1px dashed #0b5ed7;
@@ -120,7 +121,10 @@ footer {
   color: #b45309;
 }
 
-h3 {
-  margin-top: 2rem;
+footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #ddd;
+  color: #666;
+  font-size: 0.9rem;
 }
-
